@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+h1{
+    color: brown;
+}
+
+a
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+input[type=text]
+{
+    border: 2px solid black;
+}
+
+input[type=number]
+{
+    border: 2px solid black;
+}
+
+input[type=submit]
+{
+    background-color: rgb(171, 154, 154);
+}

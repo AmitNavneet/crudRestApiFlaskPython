@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/style.css"></link>
+        <title>
+        Home Page
+    </title></head>
+
+<body>
+<a href="students">View students' data</a>
+
+<p>
+    <h1>Update Student Data</h1>
+    <form method="POST" action="updateStudent">
+        Enter Roll Number:
+        <input type="number" name="studRoll" required>
+        <br><br>
+        Enter updated name:
+        <input type="text" name="studName" required>
+        <br><br>
+        Enter updated Score:
+        <input type="number" name="studScore" required step="0.01">
+        <br><br>
+        <input type="submit" value="Update">
+    </form>
+</p>
+
+<p>
+    <h1>Delete a Roll Number</h1>
+    <form method="POST" action="deleteStudent">
+        Enter roll number to delete:
+        <input type="number" name="studRoll" required>
+        <input type="submit" value="Delete">
+    </form>
+</p>
+
+<p>
+    <h1>Post new Student's Data</h1>
+    <form method="POST" action="postStudent">
+       Enter Roll Number:
+       <input type="number" name="studRoll" required>
+       <br><br>
+        Enter name:
+        <input type="text" name="studName" required>
+        <br><br>
+        Enter Score:
+        <input type="number" step="0.01" name="studScore" required>
+        <br><br>
+        <input type="submit" value="Add Student">
+        
+    </form>
+</p>
+
+</body>
+</html>
